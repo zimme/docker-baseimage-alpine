@@ -1,5 +1,4 @@
-FROM scratch
-ADD rootfs.tar.xz /
+FROM alpine
 
 MAINTAINER zimme
 
