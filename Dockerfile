@@ -1,6 +1,6 @@
 FROM alpine
 
-MAINTAINER zimme
+LABEL maintainer="zimme"
 
 # set version for s6 overlay
 ARG OVERLAY_VERSION="v1.21.2.2"
